@@ -1,0 +1,39 @@
+# Secrets
+.env
+.env.*
+!.env.example
+Ewaybill.txt
+.claude/settings.local.json
+# Holds GSP app credentials; keep a local copy only
+setup-vps.sh
+
+# Runtime data
+data/
+uploads/
+*.db
+*.db-shm
+*.db-wal
+
+# Dependencies and build output
+node_modules/
+dist/
+dist.tar.gz
+*.apk
+frontend/android/app/build/
+frontend/android/build/
+frontend/android/.gradle/
+frontend/android/local.properties
+frontend/android/app/src/main/assets/public/
+
+# Vendor docs, sample creds and company documents (bank, PAN, GST)
+Taxilla-05-09-2025/
+RE__Kena_Software_Solutions_-_Taxilla_-_GSP-enRiched-EWB_APIs/
+RE__Kena_Software_Solutions_-_Taxilla_-_GSP-enRiched-EWB_APIs.zip
+enRiched-EWB-API 1 (1)/
+*.pdf
+*.zip
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db

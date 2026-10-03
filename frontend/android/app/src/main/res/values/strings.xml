@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">E-Waybill Generator</string>
+    <string name="title_activity_main">E-Waybill Generator</string>
+    <string name="package_name">com.ewaybill.generator</string>
+    <string name="custom_url_scheme">com.ewaybill.generator</string>
+</resources>
